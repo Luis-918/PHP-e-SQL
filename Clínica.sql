@@ -1,0 +1,11 @@
+create database clinica;
+
+use clinica;
+
+create table veterinano(
+	codigo int not null auto_increment primary key,
+	nome varchar(250) not null,
+    telefone varchar(13) not null,
+    salario decimal(10,2) not null,
+    endereco varchar(250) not null
+)engine = InnoDB;
