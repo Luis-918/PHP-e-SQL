@@ -39,6 +39,6 @@
             echo "Preencha os campos!";
          }
     ?>
-    <button><a href="telas/index.php">Voltar</a></button>
+    <button><a href="index.php">Voltar</a></button>
 </body>
 </html>
